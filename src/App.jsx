@@ -50,6 +50,7 @@ function App() {
 
   return (
     <>
+    <h1>タスク管理アプリ</h1>
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
@@ -78,3 +79,4 @@ function App() {
 }
 
 export default App;
+
